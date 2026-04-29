@@ -6,8 +6,8 @@
 
 ### 1. Preparação do Ambiente
 1. Acesse o [Google Colab](https://colab.research.google.com/).
-2. Clique em **"Novo notebook"**.
-3. No menu lateral esquerdo (ícone de pasta), clique em **"Fazer upload para o armazenamento da sessão"** e selecione o arquivo: `50_Startups.csv`.
+2. Na janela inicial, selecione a aba **"Upload"** e escolha o arquivo: `Lab 02 - Colab Notebook.ipynb`.
+3. No menu lateral esquerdo (ícone de pasta), faça o upload do dataset: `Lab 02 - 50_Startups.csv`.
 
 ### 2. Obtendo sua Credencial (API Key)
 Para que o código funcione, você precisa de uma chave de acesso:
@@ -17,10 +17,10 @@ Para que o código funcione, você precisa de uma chave de acesso:
 4. Copie a chave gerada (você a colará no código a seguir).
 
 ### 3. Execução do Código
-Cole o script fornecido pelo professor (`7BIR - Lab 02 - Colab Notebook.py`) em uma célula de código no Colab. 
-
-**Atenção:** Localize a linha abaixo no código e substitua pelo valor da sua chave:
+**Atenção:** No notebook aberto, localize a célula de configuração da API Key e substitua pelo valor da sua chave:
 `API_KEY = 'COLE_SUA_API_KEY_AQUI'`
+
+**Nota:** O laboratório utiliza o motor **Gemini 2.5 Flash** (ou Gemini 3 Flash Preview) para análise de alta performance. Execute as células em sequência.
 
 ### 4. O Desafio de Negócio (Venture Capital)
 Imagine que você é sócio de um fundo de investimento. O código enviará os dados das startups para a IA com as seguintes missões:
