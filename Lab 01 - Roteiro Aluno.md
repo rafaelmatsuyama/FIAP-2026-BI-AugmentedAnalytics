@@ -20,7 +20,7 @@ Na barra lateral (em **Advanced Settings**), configure:
 * **Top-P:** 0.2
 
 ### 4. Upload dos Dados
-No campo de chat, clique no ícone de **"+"** e faça o upload do arquivo: `PesquisaClientes.csv`.
+No campo de chat, clique no ícone de **"+"** e faça o upload do arquivo: `Lab 01 - PesquisaClientes.csv`.
 
 ### 5. O Desafio Prático
 Execute os prompts abaixo para extrair os insights:
