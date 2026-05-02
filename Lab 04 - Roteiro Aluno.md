@@ -10,8 +10,11 @@
 3. Importe o notebook fornecido pelo professor (`Lab 04 - Colab Notebook.ipynb`).       
 4. Insira sua **API Key** do Google AI Studio na variável `API_KEY`.
 
-### 2. O Desafio Analítico
-Você agora tem um "Analista Digital" que traduz suas perguntas para código Python. Use a função `chat_com_dados("sua pergunta")` para responder a estas questões de negócio:
+### 2. O Fluxo de Trabalho
+Neste laboratório, você usará a IA para preparar e analisar o terreno de forma sequencial:
+
+1. **Saneamento (Engenheiro de Dados):** Execute a função `sanitizar_dados()` para que a IA identifique e corrija inconsistências de formatação no dataset.
+2. **Análise (Analista Digital):** Com os dados limpos, use a função `chat_com_dados("sua pergunta")` para responder:
 
 *   **Segmentação:** `chat_com_dados("Qual a principal ocupação das mulheres que ganham acima de 50k?")`
 *   **Comportamento:** `chat_com_dados("Pessoas casadas trabalham mais horas por semana que solteiros?")`
