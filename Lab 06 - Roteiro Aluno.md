@@ -24,12 +24,12 @@ Você deve conectar os seguintes "Nós" (Nodes):
 1. **Start (Início):** Adicione um campo de entrada (User Input) do tipo Texto (Short Text) chamado `nome_concorrente`.
 2. **LLM Node (Agente Pesquisador):**
    - **System Prompt:** "Você é um Especialista em Inteligência de Mercado. Sua tarefa é descrever o modelo de negócio e os pontos fortes do {nome_concorrente}."
-   - Clique em + Add Message e no **User Prompt:**: Analise o modelo de negócio da empresa {nome_concorrente}.
+   - Clique em + Add Message e no **User Prompt:** Analise o modelo de negócio da empresa {nome_concorrente}.
    - **Model:** `gemini-2.5-flash`.
 3. **LLM Node (Agente de Estratégia):**
    - **Input:** Recebe o texto do Agente Pesquisador.
    - **System Prompt:** "Você é um Diretor de Estratégia. Com base na descrição do concorrente, identifique os 3 maiores riscos para a nossa empresa e sugira uma contraofensiva."
-   - Clique em + Add Message e no **User Prompt:**: Faça o Mapeamento de Riscos com  base nesse modelo de negócio: {Agente_Pesquisador.text}. Exiba  o relatório formatado em Markdown.
+   - Clique em + Add Message e no **User Prompt:** Faça o Mapeamento de Riscos com  base nesse modelo de negócio: {Agente_Pesquisador.text}. Exiba  o relatório formatado em Markdown.
 4. **End (Resultado Final):** Crie um Output com uma variável chamada `report` com o valor {Agente_Estrategia.text}.
 
 ### 🎯 A MISSÃO
