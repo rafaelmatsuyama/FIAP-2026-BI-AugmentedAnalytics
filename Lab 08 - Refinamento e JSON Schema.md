@@ -1,7 +1,7 @@
-# Lab 08b: Refinamento e JSON Schema (AI Studio)
+# Lab 08: Refinamento e JSON Schema (AI Studio)
 
 ## 🏢 1. Contexto Executivo (Business Case)
-No mundo corporativo, a IA não pode ser "imprevisível". Se um sistema de BI (como o Dashboard que você criou no Lab 08a) espera um número, a IA não pode responder com um texto longo. 
+No mundo corporativo, a IA não pode ser "imprevisível". Se um sistema de BI (como o Dashboard que você construirá no Lab 09) espera um número, a IA não pode responder com um texto longo. 
 
 Neste laboratório, você aprenderá a **domar a IA**. Vamos configurar o "Cérebro" do seu Agente no **Google AI Studio** para garantir que ele sempre responda no formato exato que seu sistema precisa, com o tom de voz de um consultor sênior da FIAP.
 
