@@ -41,7 +41,7 @@ Ao final deste laboratório, você será capaz de:
 ### Passo 2: Abertura do Notebook no Google Colab
 1. Acesse o [Google Colab](https://colab.research.google.com/).
 2. Na tela inicial de seleção de notebook, escolha a aba **"GitHub"** (ou use a aba **"Upload"** caso tenha baixado o arquivo localmente).
-3. Na busca do GitHub, informe o repositório da disciplina: `rafaelmatsuyama/FIAP-2026-BI-AugmentedAnalytics`.
+3. Na busca do GitHub, informe o repositório da disciplina: `rafaelmatsuyama/FIAP-BI-AugmentedAnalytics`.
 4. Selecione o arquivo: `lab02-financial-analytics/Lab 02 - Colab Notebook.ipynb`.
 
 ### Passo 3: Carga do Dataset
