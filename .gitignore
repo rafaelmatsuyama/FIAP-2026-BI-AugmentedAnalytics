@@ -1,0 +1,31 @@
+# Python & Ambientes Virtuais
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebook & Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Chaves, Credenciais e Variáveis de Ambiente (Segurança Crítica)
+.env
+*.pem
+*.key
+*.token
+credentials.json
+client_secret*.json
+
+# Arquivos de Sistema & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 🛡️ Guardrails Docentes: Gabaritos e Soluções (Confidencial)
+*Gabarito*
+*gabarito*
+*Solution*
+*solution*
